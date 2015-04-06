@@ -55,7 +55,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me SexyDream, or Dream, is a magical flying unicorn that looks over the Earth.");
+                    API.sendChat("/me SexyDream, or Dream, is a magical flying unicorn who watches over the Earth and everyone in it.");
                 }
             }
         };
