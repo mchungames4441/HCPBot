@@ -55,15 +55,15 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "HCPBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
         maximumAfk: 120,
-        afkRemoval: true,
-        maximumDc: 60,
+        afkRemoval: false,
+        maximumDc: 15,
         bouncerPlus: true,
         blacklistEnabled: true,
         lockdownEnabled: false,
@@ -72,7 +72,7 @@
         cycleGuard: true,
         maximumCycletime: 10,
         voteSkip: false,
-        voteSkipLimit: 10,
+        voteSkipLimit: 3,
         timeGuard: true,
         maximumSongLength: 10,
         autodisable: true,
