@@ -92,7 +92,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Welcome to the Hungcraft Prison plug.dj room! Remember to check out our Minecraft server! IP: hungcraft.no-ip.org",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
