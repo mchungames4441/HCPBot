@@ -86,7 +86,7 @@
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
-        chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/mchungames4441/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: false,
         maximumDc: 15,
