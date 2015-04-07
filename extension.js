@@ -113,7 +113,7 @@
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         chatLink: "https://raw.githubusercontent.com/mchungames4441/basicBot/master/lang/en.json",
-        maximumAfk: 120,
+        maximumAfk: 121,
         afkRemoval: false,
         maximumDc: 15,
         bouncerPlus: true,
