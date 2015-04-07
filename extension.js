@@ -73,7 +73,7 @@
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
-        chatLink: "https://cdn.rawgit.com/mchungames4441/HCPBot/master/en.json",
+        chatLink: "https://rawgit.com/" + fork + "/HCPBot/master/lang/en.jsonn",
         maximumAfk: 120,
         afkRemoval: false,
         maximumDc: 15,
