@@ -118,7 +118,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Welcome to the Hungcraft Prison plug.dj room! We're currently playing a techno mix, so the waitlist is locked. Enjoy the music!",
+        motd: "Welcome to the Hungcraft Prison plug.dj room! Enjoy the music!",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
