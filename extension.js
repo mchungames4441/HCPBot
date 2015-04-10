@@ -55,7 +55,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me SexyDream, or Dream, is a magical flying unicorn who watches over the Earth and everyone in it. Dream really likes kittens.");
+                    API.sendChat("/me Dream is a magical flying unicorn who watches over the Earth and everyone in it. Dream really likes kittens.");
                 }
             }
         };
@@ -81,7 +81,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me TheCuteDino, or Dino, is a rainbow stegosaurus who likes playing with cats.");
+                    API.sendChat("/me Dino is a rainbow stegosaurus who likes playing with cats.");
                 }
             }
         };
@@ -95,6 +95,32 @@
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                     API.sendChat("/me TheCuteDino, or Dino, is a rainbow stegosaurus who likes playing with cats.");
+                }
+            }
+        };
+        
+        bot.commands.mindCommand = {
+            command: 'whoismind',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me Mind is a herpy flerp-derp that likes to herp derps. Derp!");
+                }
+            }
+        };
+        
+        bot.commands.mmindbCommand = {
+            command: 'whoismymindblower',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me mymindblower, or Mind, is a herpy flerp-derp that likes to herp derps. Derp!");
                 }
             }
         };
