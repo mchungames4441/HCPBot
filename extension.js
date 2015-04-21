@@ -186,7 +186,7 @@
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            OP: "https://rawgit.com/" + fork + "/HCPBot/master/blacklists/OP.json"
         }
     }));
 
